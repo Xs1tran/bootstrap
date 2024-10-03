@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Juan Martinez</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js" defer></script>
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Portafolio de Juan Martinez</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#curriculum">Currículum</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <article>
+        <section class="inicio p-5 bg-info text-center text-white" id="inicio">
+            <h2>Bienvenido a mi Portafolio</h2>
+        </section>
+    </article>
+
+    <main class="container mt-5">
+        <section id="sobre-mi">
+            <h2 class="text-primary">Sobre Mí</h2>
+            <p class="lead">Hola, soy Juan Martinez, tengo 19 años y nací en la ciudad de Popayán...</p>
+        </section>
+
+        <section id="proyectos" class="my-5">
+            <h2 class="text-secondary">Proyectos</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">VENTA DE ROPA</h3>
+                    <p class="card-text">Emprendi un negocio comprando y vendiendo ropa, aun es un proceso corto el que llevo, pero apuntando a un lugar grande y a gran escala</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculum" class="my-5">
+            <h2 class="text-success">Currículum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </section>
+        
+        <section id="contacto" class="my-5">
+            <h2 class="text-warning">Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="text-center bg-dark text-white p-3">
+        <p>01/09/2004 Juan Martinez</p>
+    </footer>
+</body>
+</html>
